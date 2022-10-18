@@ -13,8 +13,8 @@ body{
     margin: 20px auto;
     display: grid;
     grid-gap: 15px;
-    grid-template-columns: repeat( 3, 1fr);
-    grid-template-rows:repeat(4, auto) ;
+    grid-template-columns: repeat( 2, 1fr);
+    grid-template-rows:repeat(3, auto) ;
     grid-template-areas: "header header header"
     "contenido contenido aside"
     "footer footer footer";
@@ -39,10 +39,7 @@ body{
 }
 .contenedor .contenido{
     grid-area: contenido;
-   
-    
   
- 
 
 }
 .contenedor .aside{
@@ -81,7 +78,8 @@ ul li a:hover{
 }
 .entrada{
 padding: 10px; 
-border: inset  2px #fff;  
+border: inset  2px #fff; 
+
 }
 .logo{
 
