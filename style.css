@@ -39,10 +39,10 @@ body{
 }
 .contenedor .contenido{
     grid-area: contenido;
-    height: 350px;
+   
     
   
-    text-align: center;
+ 
 
 }
 .contenedor .aside{
