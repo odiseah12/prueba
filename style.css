@@ -109,12 +109,13 @@ input{
   
 
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     .contenedor{
         grid-template-areas: "header header header"
-        "aside aside  "
+        
         "contenido contenido contenido"
-        "footer footer footer";
+        "aside aside aside"
+        " footer footer footer";
     }
     
 }
